@@ -1,0 +1,123 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  width: 250px;
+}
+
+.quiz-main {
+  flex: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.quiz-main h1 {
+  color: #27ae60;
+  font-size: 2rem;
+}
+
+.quiz-main p {
+  font-size: 1.2rem;
+}
+
+.question-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+}
+
+.options li {
+  margin-bottom: 10px;
+}
+
+.quiz-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-navigator {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.navigator-button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+  background-color: blue;
+  color:  white;
+}
+
+.sidebar-logo {
+  color: yellow;
+  font: 400;
+}
+
+.tagline {
+  color: rgb(10, 230, 10);
+}
+

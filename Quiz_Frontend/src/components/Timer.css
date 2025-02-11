@@ -1,0 +1,16 @@
+.timer {
+    background-color: #27ae60;
+    color: white;
+    padding-top: 10px;
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;  /* Centers the text horizontally */
+    align-items: center;      /* Centers the text vertically */
+    /* height: 100%; */
+  }
+  
+  .timer.red {
+    background-color: red;
+  }
+  
