@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .career-mate-page {
+    text-align: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+    color: rgb(107, 60, 60);
+  }
+  
+  /* Header */
+  .header {
+    background-color: #7db4ff;
+    padding: 1rem;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Logo Styling */
+  .logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: black;
+  }
+  
+  /* Navbar */
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .navbar a:hover {
+    color: #ffffff;
+  }
+  
+  /* Content Section */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 1rem;
+  }
+  
+  .student-section,
+  .counselor-section {
+    width: 45%;
+    padding: 1rem;
+  }
+  
+  .student-section h2,
+  .counselor-section h2 {
+    color: #4d6efc;
+  }
+  
+  .student-section p,
+  .counselor-section p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .signup-btn,
+  .login-btn {
+    background-color: #7db4ff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  .signup-btn:hover,
+  .login-btn:hover {
+    background-color: #b86060;
+  }
+  
+  .login-text {
+    margin-top: 1rem;
+  }
+  
+  /* Divider */
+  .divider {
+    width: 2px;
+    background-color: black;
+    height: 300px;
+    margin: 0 2rem; /* Add some space between the sections and the divider */
+  }

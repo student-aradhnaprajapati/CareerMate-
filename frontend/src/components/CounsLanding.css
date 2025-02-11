@@ -1,0 +1,286 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1rem;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #4A4AFF;
+  color: #000;
+  padding: 1rem 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Nav_bar {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav_bar li {
+  margin-left: 1rem;
+}
+
+.Nav_bar a {
+  color: #000;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.Nav_bar a:hover {
+  opacity: 0.8;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+.hero_section {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.hero_section h1 {
+  font-size: 3rem;
+  color: #4A4AFF;
+  text-transform: capitalize;
+  margin-bottom: 15rem;
+  margin-top: 10rem;
+  
+}
+
+.cta-text {
+  font-size: 2.0rem;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.about_section, .why {
+  margin-bottom: 2rem;
+}
+
+.about_box, .why-box {
+  background-color: #f0f0ff;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.about_box h2, .why-box h2 {
+  color: #4A4AFF;
+  margin-top: 0;
+}
+
+.Session {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.expart {
+  font-size: 2rem;
+  color: #4A4AFF;
+  margin-bottom: 0.5rem;
+}
+
+.expart-more {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.featurs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer Styles */
+.footer-section {
+  background-color: #4A4AFF;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-box p {
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Nav_bar {
+    margin-top: 1rem;
+  }
+
+  .Nav_bar li {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+
+  .hero_section h1 {
+    font-size: 2rem;
+  }
+
+  .expart {
+    font-size: 1.5rem;
+  }
+}
+/* Add Slot Modal Styling */
+.modal {
+position:absolute;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+background-color: white;
+margin: 15% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 21.5%;
+border-radius: 10px;
+text-align: left;
+scroll-behavior:auto;
+}
+
+.modal-content h2 {
+margin-bottom: 20px;
+}
+
+.modal-content h3 {
+  margin-bottom: 20px;
+  font-size:x-large;
+  font-weight: bold;
+  text-align: center;
+  color:darkblue;
+  line-height: 150%;
+}
+
+.modal-content input {
+margin-bottom: 10px;
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+/* text-align: left; */
+}
+
+.modal-content label {
+  /* width: 100%; */
+  text-align: left;
+}
+
+.modal-content button {
+margin: 5px;
+padding: 10px 20px;
+border: none;
+background-color: #4CAF50;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.modal-content button[type="button"] {
+background-color: #f44336; /* Red for cancel */
+}
+
+.modal-content button:hover {
+opacity: 0.9;
+}
+
+.logo {
+position: relative;
+top: 0px;
+right: 0px;
+
+}
+
+.logo img {
+width: 50px; /* Adjust size as needed */
+height: 50px;
+cursor: pointer;
+}
+
+.details-modal {
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+position: absolute;
+top: 60px;  
+right: 10px;
+z-index: 1000;
+display: flex;
+flex-direction: column;
+gap: 10px;  
+width: 300px; 
+}
+
+.modal-content button {
+margin-top: 10px;
+padding: 5px 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.modal-content button:hover {
+background-color: #45a049;
+}
+
+.logoutButton {
+  background-color: #e61809;
+  color: #ffffff;
+  /* width: 50px; */
+  padding: 8px;
+  /* padding-right: 57; */
+  /* align-self: flex-end; */
+  border-radius: 5px;
+}
+
+.editButton {
+  /* display: flex; */
+  background-color: #2a09e6;
+  color: #ffffff;
+  /* width: 50px; */
+  padding: 8px;
+  /* padding-right: 57; */
+  /* align-self: flex-start; */
+  border-radius: 5px;
+}
+
+.profButtons {
+  display: flex;
+  justify-content: space-between;
+}

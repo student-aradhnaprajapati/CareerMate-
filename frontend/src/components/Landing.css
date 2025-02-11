@@ -1,0 +1,208 @@
+/* General Page Styling */
+.career-page {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    /* padding-left: 192px; */
+    color: #333;
+  }
+  
+  /* Header Styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001f3f;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    align-items: right;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .nav ul li {
+    cursor: pointer;
+  }
+  
+  .start-button {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #007bff;
+    color: white;
+    padding: 5rem 5rem;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .cta-text {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 3rem 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .about-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #137eb4;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-box h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .about-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Why Section */
+  .why-section {
+    padding: 3rem 2rem;
+  }
+  
+  .why-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #15a4e7;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .why-box h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  /* Why CareerMate Section */
+  .why-careermate {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between; /* Ensure equal spacing between elements */
+    align-items: center; /* Align items vertically */
+    gap: 2rem; /* Add some spacing between the features */
+    margin-top: 2rem;
+    max-width: 900px; /* Add a max width */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .feature {
+    flex: 1; /* Ensure each feature gets equal width */
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Reviews Section */
+  .reviews-section {
+    padding: 3rem 2rem;
+    background-color: #ffff;
+    text-align: center;
+  }
+  
+  .reviews {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .review {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  /* Follow Us Section */
+  .follow-us {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .social-icon p {
+    margin-top: 0.5rem;
+  }
+  
+  /* Footer Section */
+  .footer {
+    padding: 2rem;
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+  }
+  
+  .avatars {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .avatars img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }

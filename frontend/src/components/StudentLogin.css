@@ -1,0 +1,131 @@
+/* Global resets can be scoped if necessary */
+.student-landing body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header styling */
+  .student-landing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b69c0;
+    color: white;
+    padding: 10px 30px;
+  }
+  
+  .student-landing-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .student-landing-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .student-landing-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .student-landing-user-icon {
+    background-color: white;
+    color: #3b69c0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  /* Hero section styling */
+  .student-landing-hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b69c0;
+    color: white;
+    padding: 50px;
+  }
+  
+  .student-landing-hero-text {
+    flex: 1;
+  }
+  
+  .student-landing-cta-text {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  .student-landing-hero-image img {
+    width: 300px;
+    height: auto;
+  }
+  
+  /* About Us Section */
+  .student-landing-about-section {
+    background-color: #423b37;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .student-landing-about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .student-landing-about-section p {
+    font-size: 1rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  /* Why Choose Section */
+  .student-landing-why-section {
+    background-color: #3b69c0;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .student-landing-why-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .student-landing-why-section p {
+    font-size: 1rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  /* Careers Section */
+  .student-landing-careers-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: white;
+  }
+  
+  .student-landing-career-icons img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Footer */
+  .student-landing-footer {
+    background-color: #423b37;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+  }
+  
